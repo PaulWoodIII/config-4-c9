@@ -4,7 +4,7 @@ sudo yum install gcc -y;
 sudo yum install openssl-devel -y;
 sudo yum install git -y;
 sudo yum install glibc-static -y;
-sudo yum install ncurses-devel;
+sudo yum install ncurses-devel -y;
 git clone git://github.com/creationix/nvm.git ~/.nvm;
 source ~/.nvm/nvm.sh;
 echo "source ~/.nvm/nvm.sh" >> ~/.bash_profile;
